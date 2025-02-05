@@ -1,6 +1,18 @@
 <?php
 class Pay_Wompi_Gateway extends WC_Payment_Gateway {
   
+ // Definir propiedades de antemano por actualizacion php 8.2
+  public $TextoWompi;
+  public $client_id;
+  public $client_secret;
+  public $api_email;
+  public $api_notifica;
+  public $api_edit_monto;
+  public $api_permitirTarjetaCreditoDebido;
+  public $api_permitirPagoCuotas;
+  public $api_permitirPagoConPuntoAgricola;
+  public $api_permitirPagoEnBitcoin;
+  
   // Constructor method
   public function __construct() {
     global $woocommerce;
