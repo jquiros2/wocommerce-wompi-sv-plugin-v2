@@ -8,7 +8,7 @@ class Pay_Wompi_Gateway extends WC_Payment_Gateway {
     $this->method_title = __("WOMPI - El Salvador", 'wompi-payment');
     $this->method_description = __("WOMPI - El Salvador Payment Gateway Plug-in para WooCommerce", 'wompi-payment');
     $this->title = __("WOMPI - El Salvador", 'wompi-payment');
-    $this->icon = apply_filters('woocommerce_wompi_icon', $woocommerce->plugin_url() . '/../wompi-el-salvador/assets/images/wompi.png');
+    $this->icon = apply_filters('woocommerce_wompi_icon', $woocommerce->plugin_url() . '/../wocommerce-wompi-sv-plugin-v2-main/assets/images/wompi.png');
     $this->has_fields = true;
     $this->init_form_fields();
     $this->init_settings();
