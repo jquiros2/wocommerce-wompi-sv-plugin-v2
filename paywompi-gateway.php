@@ -246,7 +246,8 @@ class Pay_Wompi_Gateway extends WC_Payment_Gateway {
   
   public function init_form_fields()
   {
-    write_log('init formswompi *****');
+    //deshabilitando pq no siempre con debug en wp queremos saber tanto de todo.
+    //write_log('init formswompi *****');
         $arrayPuntos = array(
             'true' => 'SI',
             'false' => 'NO'
